@@ -8,6 +8,7 @@ clear
 rm -f root.sh
 
 # Get Passwd
+echo ""
 echo "by LostServer"
 echo ""
 read -p "Please Input an New Password For Root : " Pass
@@ -21,6 +22,7 @@ IPANDA=$(wget -qO- ifconfig.co);
 # Successful
 clear
 echo "Please Save This VPS Account Information"
+echo ""
 echo "============================================"
 echo "  IP ADDRESS = $IPANDA"
 echo "  Username   = root"
