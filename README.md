@@ -1,2 +1,1 @@
-# Root-VPS
-ok
+# How to use:
