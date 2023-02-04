@@ -17,7 +17,7 @@ read -p "Please Input an New Password For Root : " Pass
 rm -f /etc/ssh/sshd_config
 wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/syntax-err0rr/Root-VPS/main/sshd
 echo -e "$Pass\n$Pass\n"|passwd root &> /dev/null
-IPANDA=$(wget -qO- ifconfig.co);
+IPANDA=$(curl -s ipinfo.io/ip);
 
 # Successful
 clear
